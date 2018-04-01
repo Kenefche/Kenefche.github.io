@@ -1066,6 +1066,7 @@
 				background-color: #8f6bc9;
 			}
 
+
 		@media screen and (max-width: 480px) {
 
 			input[type="submit"],
@@ -1075,7 +1076,40 @@
 			.button {
 				padding: 0;
 			}
+}
+input[type="submit"].style4,
+		input[type="reset"].style4,
+		input[type="button"].style4,
+		button.style4,
+		.button.style3 {
+			background-color: #9d7ed0;
+		}
 
+			input[type="submit"].style4:hover,
+			input[type="reset"].style4:hover,
+			input[type="button"].style4:hover,
+			button.style3:hover,
+			.button.style3:hover {
+				background-color: #ab91d7;
+			}
+
+			input[type="submit"].style4:active,
+			input[type="reset"].style4:active,
+			input[type="button"].style4:active,
+			button.style4:active,
+			.button.style4:active {
+				background-color: #8f6bc9;
+			}
+}
+@media screen and (max-width: 550px) {
+
+			input[type="submit"],
+			input[type="reset"],
+			input[type="button"],
+			button,
+			.button {
+				padding: 0;
+			}
 		}
 
 /* Poptrox */
